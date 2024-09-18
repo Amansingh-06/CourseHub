@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.main {
+width: 275px;
+    height: 325px;
+    margin: 20px;
+    background-color: rosybrown;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    /* Add this */
+    transition: all 1s;
+}
+.main:hover{
+    transform: scale(1.03);
+}
+
+.img {
+    width: 100%;
+}
+
+.Titleholder {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.title{
+    width: 70%;
+    
+    height: 40px;
+
+}
+.Discriptionholder{
+    margin: 10px 5px 3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+   
+    
+}
+
+
+.likedbtn{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+}
